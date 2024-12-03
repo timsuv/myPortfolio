@@ -2,8 +2,13 @@
 export default {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        
+        }
+      
+    },
   },
   plugins: [],
-}
-
+};
