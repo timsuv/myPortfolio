@@ -2,8 +2,8 @@ import MyImage from "../img/image.png";
 
 export const Home = () => {
   return (
-    <div  >
-      <h1>About me</h1>
+    <div>
+      <h2>About me</h2>
       <p>About me, hej hej jag är tim 24 år, pluggar jobbar lever livet</p>
       <div>
         <img
