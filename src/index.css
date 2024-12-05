@@ -1,6 +1,8 @@
+@import "./style/base.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
   @apply bg-zinc-900 text-white;
@@ -8,3 +10,6 @@ body {
 *, *::before, *::after {
  box-sizing: border-box
 }
+/* .heading{
+  @apply text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2;
+} */

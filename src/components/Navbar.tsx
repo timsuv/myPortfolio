@@ -1,14 +1,29 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-zinc-600 w-1/2 rounded-tr-2xl rounded-bl-2xl p-2 absolute right-0 top-0 outline outline-offset outline-gray-400">
+    <nav className="bg-zinc-600 w-1/2 rounded-tr-2xl rounded-bl-2xl p-2 absolute right-0 top-0 outline outline-offset outline-gray-400  ">
       <ol className="w-full flex justify-around">
-        <li>
-          <Link to="/home">Home</Link>
+        <li className="hover:text-green-500">
+          <NavLink to="/home" 
+          className={({ isActive }) =>
+              isActive ? "active" : ""
+          }>
+          Home</NavLink>
         </li>
-        <li>
-          <Link to="/projects">My Projects</Link>
+        <li className="hover:text-green-500">
+          <NavLink to="/projects" 
+          className={({ isActive }) =>
+              isActive ? "active" : ""
+          }>
+          My projects</NavLink>
+        </li>
+        <li className="hover:text-green-500">
+          <NavLink to="/contact-me" 
+          className={({ isActive }) =>
+              isActive ? "active" : ""
+          }>
+          Contact me</NavLink>
         </li>
       </ol>
     </nav>

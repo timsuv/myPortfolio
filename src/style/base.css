@@ -1,0 +1,7 @@
+
+.heading{
+    @apply text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2;
+}
+.active{
+    @apply text-green-500
+}

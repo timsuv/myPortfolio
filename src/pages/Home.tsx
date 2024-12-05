@@ -1,7 +1,8 @@
+
 export const Home = () => {
   return (
     <div>
-      <div className="text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2 ">
+      <div className="heading">
         <h2>About me</h2>
       </div>
 
@@ -24,7 +25,7 @@ export const Home = () => {
           <h2>What I'm doing</h2>
         </div>
       </section>
-      <section className="container grid grid-cols-2 gap-4 items-center mt-4">
+      <section className="container grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-4">
         <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
           <div className="flex items-center justify-start gap-3   ">
             <svg
@@ -95,7 +96,8 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="container grid grid-cols-2 gap-4 items-center mt-4">
+      {/* hfjfj */}
+      <section className="container grid grid-cols-1 md:grid-cols-2  gap-4 items-center mt-4">
         <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
           <div className="flex items-center justify-start gap-3   ">
             <svg
