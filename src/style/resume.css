@@ -1,0 +1,6 @@
+.timelineIcon{
+    @apply absolute flex items-center justify-center w-6 h-6 bg-zinc-800 rounded-full -start-3 text-green-500;
+}
+.timelineHeading{
+    @apply flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white;
+}
