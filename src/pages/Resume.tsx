@@ -216,7 +216,7 @@ export const Resume = () => {
         </div>
 
         </section>
-        <section>
+        <section className="mb-2">
         <div className="flex justify-between mb-1 ">
           <span className="text-sm text-blue-700 dark:text-white mt-2">
           Backend programming C#

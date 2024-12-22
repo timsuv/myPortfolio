@@ -1,7 +1,7 @@
 import myMemoji from "../img/meMemoji.png";
 export const ContactCard = () => {
   return (
-    <div className="col-span-3 border bg-zinc-800 border-gray-400 rounded-2xl p-3 flex flex-col items-center gap-3 ">
+    <div className="col-span-3 border bg-zinc-800 border-gray-400 rounded-2xl p-3 flex flex-col items-center gap-3 h-[500px] ">
       <section className="flex flex-col gap-3 items-center border-b border-b-gray-400 ">
         <div className="img_container border-gray-700 bg-zinc-600 border rounded-2xl w-1/2">
           <img
