@@ -1,4 +1,5 @@
 import myMemoji from "../img/meMemoji.png";
+import { MapModal } from "./MapModal";
 export const ContactCard = () => {
   return (
     <div className="col-span-3 border bg-zinc-800 border-gray-400 rounded-2xl p-3 flex flex-col items-center gap-3 h-[500px] ">
@@ -64,8 +65,8 @@ export const ContactCard = () => {
             </svg>
           </div>
           <div>
-            <h3>Location</h3>
-            <a>Stockholm, Sweden</a>
+            <h3>Stockholm, Sweden</h3>
+            <MapModal/>
           </div>
         </div>
       </section>

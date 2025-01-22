@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
 @import "./style/base.css";
 @import "./style/resume.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 body {
-  @apply bg-zinc-900 text-white;
+  @apply dark:bg-zinc-900 dark:text-slate-200 bg-slate-50 text-zinc-700;
+  font-family: "Monda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
 *, *::before, *::after {
  box-sizing: border-box
 }

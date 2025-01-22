@@ -5,5 +5,31 @@
     @apply text-green-500
 }
 .card{
-    @apply bg-zinc-600  rounded-lg p-4 flex flex-col gap-3;
+    @apply bg-zinc-600  rounded-lg  flex flex-col gap-3 border;
 } 
+.cardText{
+    @apply p-2
+}
+.cardHeading{
+    @apply text-green-500 text-lg font-bold
+}
+.techStack{
+    @apply mt-3 flex flex-col gap-2
+}
+.techStack__title{
+    @apply text-gray-300 text-base font-bold
+}
+.techStack__list{
+@apply flex justify-around 
+}
+.techStack__items{
+    @apply flex flex-row text-green-500;
+    transition: 0.3s ease-in-out
+
+}
+.techStack__items:hover{
+     transform: translateX(10px);
+}
+.githubLink a{
+    @apply flex flex-row items-center gap-3 justify-center mt-4 hover:text-gray-200 text-gray-400 w-1/3 mx-auto
+}

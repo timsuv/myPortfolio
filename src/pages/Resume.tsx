@@ -14,13 +14,13 @@ export const Resume = () => {
                 width={35}
                 xmlns="http://www.w3.org/2000/svg"
                 stroke="currentColor"
-                stroke-width="26"
+                strokeWidth="26"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   <path d="M197.769 791.767l60.672-286.853c2.341-11.066-4.733-21.934-15.799-24.275s-21.934 4.733-24.275 15.799l-60.672 286.853c-2.341 11.066 4.733 21.934 15.799 24.275s21.934-4.733 24.275-15.799zm571.063-286.786l61.778 287.068c2.38 11.058 13.273 18.093 24.33 15.713s18.093-13.273 15.713-24.33l-61.778-287.068c-2.38-11.058-13.273-18.093-24.33-15.713s-18.093 13.273-15.713 24.33z"></path>
@@ -79,7 +79,7 @@ export const Resume = () => {
                 French School{" "}
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June2023
+                Sept 2020 - June 2023
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Bachelor Translator
@@ -90,42 +90,7 @@ export const Resume = () => {
         <ol className="relative border-s h-64 border-gray-200 dark:border-gray-700 ml-3 ">
           <li className="mb-6 ms-6">
             <span className="timelineIcon text-green-500">
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <path
-                    d="M2 9C2 7.89543 2.89543 7 4 7H20C21.1046 7 22 7.89543 22 9V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V9Z"
-                    stroke=""
-                    stroke-width="0"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>{" "}
-                  <path
-                    d="M16 7V4C16 2.89543 15.1046 2 14 2H10C8.89543 2 8 2.89543 8 4V7"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>{" "}
-                  <path
-                    d="M22 12L12.3922 13.9216C12.1333 13.9733 11.8667 13.9733 11.6078 13.9216L2 12"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>{" "}
-                </g>
-              </svg>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
             </span>
             <h4 className="timelineHeading">Experiences</h4>
           </li>
@@ -189,59 +154,59 @@ export const Resume = () => {
       <section className="bg-zinc-500 mt-20 rounded-lg border-2 border-gray-400 p-3">
         <h4 className="font-bold text-md">My skills</h4>
         <section className="mb-2">
-        <div className="flex justify-between mb-1 ">
-          <span className="text-sm text-blue-700 dark:text-white mt-2">
-           C# and .NET Base
-          </span>
-          <span className="text-sm font-medium text-blue-700 dark:text-white">
-            100%
-          </span>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-          <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
-        </div>
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm text-blue-700 dark:text-white mt-2">
+              C# and .NET Base
+            </span>
+            <span className="text-sm font-medium text-blue-700 dark:text-white">
+              100%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
+          </div>
 
         </section>
         <section className="mb-2">
-        <div className="flex justify-between mb-1 ">
-          <span className="text-sm text-blue-700 dark:text-white mt-2">
-           Databases (SQL)
-          </span>
-          <span className="text-sm font-medium text-blue-700 dark:text-white">
-            100%
-          </span>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-          <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
-        </div>
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm text-blue-700 dark:text-white mt-2">
+              Databases (SQL)
+            </span>
+            <span className="text-sm font-medium text-blue-700 dark:text-white">
+              100%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
+          </div>
 
         </section>
         <section className="mb-2">
-        <div className="flex justify-between mb-1 ">
-          <span className="text-sm text-blue-700 dark:text-white mt-2">
-          Backend programming C#
-          </span>
-          <span className="text-sm font-medium text-blue-700 dark:text-white">
-            10%
-          </span>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-          <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
-        </div>
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm text-blue-700 dark:text-white mt-2">
+              Backend programming C#
+            </span>
+            <span className="text-sm font-medium text-blue-700 dark:text-white">
+              10%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+          </div>
 
         </section>
         <section>
-        <div className="flex justify-between mb-1 ">
-          <span className="text-sm text-blue-700 dark:text-white mt-2">
-          Frontend programming (JS, React)
-          </span>
-          <span className="text-sm font-medium text-blue-700 dark:text-white">
-            10%
-          </span>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-          <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
-        </div>
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm text-blue-700 dark:text-white mt-2">
+              Frontend programming (JS, React)
+            </span>
+            <span className="text-sm font-medium text-blue-700 dark:text-white">
+              10%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+          </div>
 
         </section>
 
