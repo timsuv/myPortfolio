@@ -2,8 +2,8 @@ import myMemoji from "../img/meMemoji.png";
 import { MapModal } from "./MapModal";
 export const ContactCard = () => {
   return (
-    <div className="col-span-3 border bg-zinc-800 border-gray-400 rounded-2xl p-3 flex flex-col items-center gap-3 h-[500px] ">
-      <section className="flex flex-col gap-3 items-center border-b border-b-gray-400 ">
+    <div className="col-span-12 lg:col-span-3 border bg-zinc-800 border-gray-400 rounded-2xl p-3 flex flex-row md:flex-col items-center gap-3 lg:h-[500px] ">
+      <section className="flex flex-col gap-3 items-center lg:border-b border-b-gray-400 ">
         <div className="img_container border-gray-700 bg-zinc-600 border rounded-2xl w-1/2">
           <img
             className="object-cover  mx-auto"
@@ -12,10 +12,12 @@ export const ContactCard = () => {
           />
         </div>
         <h1 className="text-xl">Timofey Suvorov</h1>
+
         <span className="text-xs bg-zinc-600 rounded-lg p-1 mb-4">
           Fullstack developer
         </span>
       </section>
+      <section className="">
       <section className="text-xs flex flex-col gap-6">
         <div className="flex flex-row gap-3 items-center ">
           <div className="text-green-500 border-t border-l rounded-md p-2 border-gray-500">
@@ -66,7 +68,7 @@ export const ContactCard = () => {
           </div>
           <div>
             <h3>Stockholm, Sweden</h3>
-            <MapModal/>
+            <MapModal />
           </div>
         </div>
       </section>
@@ -102,6 +104,8 @@ export const ContactCard = () => {
           </div>
         </a>
       </section>
+      </section>
+      
     </div>
   );
 };

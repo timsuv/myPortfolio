@@ -1,5 +1,5 @@
 .heading{
-    @apply text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2;
+    @apply text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2 mt-10;
 }
 .active{
     @apply text-green-500
@@ -33,3 +33,7 @@
 .githubLink a{
     @apply flex flex-row items-center gap-3 justify-center mt-4 hover:text-gray-200 text-gray-400 w-1/3 mx-auto
 }
+.projects-cards{
+    @apply grid grid-cols-1 md:grid-cols-2
+}
+
