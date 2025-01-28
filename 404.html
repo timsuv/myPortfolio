@@ -1,27 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Redirecting...</title>
-    <script>
-      (function () {
-        // Get the current path and query string
-        var pathname = window.location.pathname;
-        var search = window.location.search;
-        var hash = window.location.hash;
-
-        // Set your app's base path (update this if your base path is different)
-        var basePath = "/myPortfolio";
-
-        // Redirect only if not already within the base path
-        if (!pathname.startsWith(basePath)) {
-          window.location.href = basePath + pathname + search + hash;
-        }
-      })();
-    </script>
+    <meta http-equiv="refresh" content="0; url=/myPortfolio/" />
   </head>
   <body>
-    <h1>Redirecting...</h1>
     <p>If you are not redirected, <a href="/myPortfolio/">click here</a>.</p>
   </body>
 </html>
