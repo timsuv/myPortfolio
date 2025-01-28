@@ -1,3 +1,5 @@
+import Icon from "../img/icon.png";
+
 export const Resume = () => {
   return (
     <div className="flex flex-col">
@@ -42,7 +44,7 @@ export const Resume = () => {
                 ChasAcademy{" "}
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2024 - Current (Major 2026)
+                Sept 2024 - Present (Major 2026)
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Fullstack .NET developer
@@ -61,10 +63,10 @@ export const Resume = () => {
                 Stockholm University
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June2023
+                Sept 2020 - June 2023
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Bachelor Translator
+                Bachelor in Translation Science
               </p>
             </span>
           </li>
@@ -79,18 +81,18 @@ export const Resume = () => {
                 French School{" "}
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June 2023
+                Sept 2017 - June 2020
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Bachelor Translator
+                Baccalauréat S
               </p>
             </span>
           </li>
         </ol>
-        <ol className="relative border-s h-64 border-gray-200 dark:border-gray-700 ml-3 mt-14 ">
+        <ol className="relative border-s h-[10em] md:h-[11.5em] lg:h-[10em] border-gray-200 dark:border-gray-700 ml-3 mt-14 md:mt-0 ">
           <li className="mb-6 ms-6">
-            <span className="timelineIcon text-green-500">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
+            <span className="timelineIcon ">
+              <img className="" src={Icon} alt="" />
             </span>
             <h4 className="timelineHeading ">Experiences</h4>
           </li>
@@ -105,7 +107,7 @@ export const Resume = () => {
                 Ritorno{" "}
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2018 - Current
+                Nov 2018 - Present
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Barista/Admin/WordPress/Slack Manager
@@ -121,37 +123,19 @@ export const Resume = () => {
             </span>
             <span>
               <h4 className="mb-1 text-md  text-gray-900 dark:text-white">
-                Stockholm University
+                Plint AB
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June2023
+                Mar 2023 - May 2023
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Bachelor Translator
-              </p>
-            </span>
-          </li>
-          <li className="mb-4 ms-6 flex items-top">
-            <span className="timelineIcon ">
-              <div className="rounded-full bg-green-800 h-4 w-4 flex justify-center items-center">
-                <div className="rounded-full bg-green-500 w-2 h-2 border-1"></div>
-              </div>
-            </span>
-            <span>
-              <h4 className="mb-1 text-md  text-gray-900 dark:text-white">
-                French School{" "}
-              </h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June2023
-              </time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Bachelor Translator
+                Internship as a film subtitler
               </p>
             </span>
           </li>
         </ol>
       </div>
-      <section className="bg-zinc-500 mt-20 rounded-lg border-2 border-gray-400 p-3">
+      <section className="bg-zinc-500 mt-24 rounded-lg border-2 border-gray-400 p-3">
         <h4 className="font-bold text-md">My skills</h4>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
@@ -165,7 +149,6 @@ export const Resume = () => {
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
           </div>
-
         </section>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
@@ -179,7 +162,6 @@ export const Resume = () => {
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
           </div>
-
         </section>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
@@ -193,7 +175,6 @@ export const Resume = () => {
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
           </div>
-
         </section>
         <section>
           <div className="flex justify-between mb-1 ">
@@ -207,9 +188,7 @@ export const Resume = () => {
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
           </div>
-
         </section>
-
       </section>
     </div>
   );

@@ -1,4 +1,3 @@
-
 export const Home = () => {
   return (
     <div>
@@ -7,17 +6,13 @@ export const Home = () => {
       </div>
 
       <p className=" text-sm mt-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. <br></br>
-        <br></br> Duis aute irure dolor in Dolor sit amet consectetur adipiscing
-        elit pellentesque habitant morbi. Mi bibendum neque egestas congue
-        quisque egestas. Eu consequat ac felis donec et odio pellentesque. Proin
-        nibh nisl condimentum id venenatis a condimentum. Vel turpis nunc eget
-        lorem dolor sed viverra ipsum nunc. Vestibulum mattis ullamcorper velit
-        sed ullamcorper morbi tincidunt ornare. Nulla facilisi morbi tempus
-        iaculis urna id volutpat lacus.
+        I am a dedicated <strong>NET full-stack developer</strong>. with expertise in <strong>C#, SQL,
+        HTML & CSS, and JavaScript</strong>. <br /> I have a passion for learning new
+        technologies and taking on challenges that push me to grow and improve. 
+        I enjoy solving problems, building innovative solutions, and creating
+        impactful software. Collaboration and continuous improvement are at the
+        heart of my approach as I work to stay at the forefront of development
+        trends.
       </p>
 
       <section>
@@ -107,7 +102,6 @@ export const Home = () => {
               height="45"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -158,7 +152,6 @@ export const Home = () => {
                 <rect
                   id="_Transparent_Rectangle_"
                   data-name="<Transparent Rectangle>"
-                  
                 ></rect>
               </g>
             </svg>
@@ -166,8 +159,8 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">Database/SQL</h3>
             <p className="text-gray-300 text-sm">
-              I have studied Databases and MySQL which gives me basics in
-              the architecture of a databases and blablabla
+              I have studied Databases and MySQL which gives me basics in the
+              architecture of a databases and blablabla
             </p>
           </div>
         </div>

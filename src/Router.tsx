@@ -5,26 +5,29 @@ import { Layout } from "./pages/Layout";
 import { ContactMe } from "./pages/ContactMe";
 import { Resume } from "./pages/Resume";
 
+// Base path for GitHub Pages
+const base = "/myPortfolio";
+
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: `${base}/`, // Prefix all paths with the base directory
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: `${base}/`, // Home page
         element: <Home />,
       },
       {
-        path: "/projects",
+        path: `${base}/projects`,
         element: <MyProjects />,
       },
       {
-        path: "/contact-me",
+        path: `${base}/contact-me`,
         element: <ContactMe />,
       },
       {
-        path: "/resume",
-        element: <Resume />
+        path: `${base}/resume`,
+        element: <Resume />,
       },
     ],
   },

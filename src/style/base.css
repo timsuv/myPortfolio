@@ -1,5 +1,5 @@
 .heading{
-    @apply text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2 mt-10;
+    @apply text-lg lg:text-3xl font-bold border-b-4 rounded-sm border-green-500 w-9 whitespace-nowrap pb-2 mt-10;
 }
 .active{
     @apply text-green-500
@@ -20,7 +20,7 @@
     @apply text-gray-300 text-base font-bold
 }
 .techStack__list{
-@apply flex justify-around 
+@apply grid grid-cols-2 lg:grid-cols-2
 }
 .techStack__items{
     @apply flex flex-row text-green-500;

@@ -6,28 +6,28 @@ export const Navbar = () => {
       {/* desktop menu */}
       <ol className="w-full flex justify-around   ">
         <li className="hover:text-green-500">
-          <NavLink to="/" 
+          <NavLink to="/myPortfolio/" 
           className={({ isActive }) =>
               isActive ? "active" : ""
           }>
           About</NavLink>
         </li>
         <li className="hover:text-green-500">
-          <NavLink to="/resume" 
+          <NavLink to="/myPortfolio/resume" 
           className={({ isActive }) =>
               isActive ? "active" : ""
           }>
           Resume</NavLink>
         </li>
         <li className="hover:text-green-500">
-          <NavLink to="/projects" 
+          <NavLink to="/myPortfolio/projects" 
           className={({ isActive }) =>
               isActive ? "active" : ""
           }>
           My projects</NavLink>
         </li>
         <li className="hover:text-green-500">
-          <NavLink to="/contact-me" 
+          <NavLink to="/myPortfolio/contact-me" 
           className={({ isActive }) =>
               isActive ? "active" : ""
           }>

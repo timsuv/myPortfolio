@@ -219,7 +219,7 @@ export const MyProjects = () => {
                       ></path>{" "}
                     </g>
                   </svg>
-                  <span className="text-white">Entity Framework</span>
+                  <span className="text-white">EF</span>
                 </li>
               </ol>
               <div className="githubLink">

@@ -11,7 +11,7 @@ export const ContactCard = () => {
             alt="This should be my picture, I hope you can see it"
           />
         </div>
-        <h1 className="text-xl">Timofey Suvorov</h1>
+        <h1 className="lg:text-xl text-base">Timofey Suvorov</h1>
 
         <span className="text-xs bg-zinc-600 rounded-lg p-1 mb-4">
           Fullstack developer
@@ -51,7 +51,7 @@ export const ContactCard = () => {
           </div>
           <div>
             <h3>Phone</h3>
-            <a>0761772149</a>
+            <a href="tel:0761772149">0761772149</a>
           </div>
         </div>
         <div className="flex flex-row gap-3 ">
@@ -72,7 +72,7 @@ export const ContactCard = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-row gap-3 mt-3">
+      <section className="flex flex-row gap-3 mt-3 items-center justify-center">
         <a
           href="https://linkedin.com/in/timofey-suvorov-99a35a224"
           target="_blank"
