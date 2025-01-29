@@ -6,13 +6,13 @@ export const Home = () => {
       </div>
 
       <p className=" text-sm mt-4">
-        I am a dedicated <strong>NET full-stack developer</strong>. with expertise in <strong>C#, SQL,
-        HTML & CSS, and JavaScript</strong>. <br /> I have a passion for learning new
-        technologies and taking on challenges that push me to grow and improve. 
-        I enjoy solving problems, building innovative solutions, and creating
-        impactful software. Collaboration and continuous improvement are at the
-        heart of my approach as I work to stay at the forefront of development
-        trends.
+        I am a <strong>full-stack .NET</strong>development student at Chas
+        Academy, eager to apply my skills in a real-world setting. With a strong
+        foundation in <strong>C#, SQL, HTML & CSS, and JavaScript</strong>, I am
+        passionate about learning, problem-solving, and building innovative
+        solutions. I am actively seeking an <strong>internship</strong> where I
+        can contribute, grow, and gain hands-on experience while collaborating
+        with a team of professionals.
       </p>
 
       <section>
@@ -50,8 +50,8 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">Back-End C#/.NET</h3>
             <p className="text-gray-300 text-sm">
-              I have studied C# programming and .NET whicg gives me basics in
-              backend and blablabla
+              I have studied C# and .NET, building a strong foundation in
+              back-end development.
             </p>
           </div>
         </div>
@@ -86,8 +86,8 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">Front-End JavaScript, React</h3>
             <p className="text-gray-300 text-sm">
-              I have studied JavaScript and React which gives me basics in
-              frontend and webdesign and blablabla
+              I have studied JavaScript and React, gaining a foundation in
+              front-end development, building dynamic, user-friendly interfaces.
             </p>
           </div>
         </div>
@@ -118,8 +118,9 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">API</h3>
             <p className="text-gray-300 text-sm">
-              I have built different types of API and blablabla <br></br>
-              backend and blablabla
+              I have built various types of APIs, focusing on back-end
+              integration, data handling, and seamless communication between
+              applications.
             </p>
           </div>
         </div>
@@ -159,8 +160,9 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">Database/SQL</h3>
             <p className="text-gray-300 text-sm">
-              I have studied Databases and MySQL which gives me basics in the
-              architecture of a databases and blablabla
+              I have studied databases, MySQL, and Entity Framework, gaining a
+              strong foundation in database architecture, data management, and
+              efficient querying for back-end development.
             </p>
           </div>
         </div>

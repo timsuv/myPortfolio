@@ -139,10 +139,10 @@ export const Resume = () => {
         <h4 className="font-bold text-md">My skills</h4>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
-            <span className="text-sm text-blue-700 dark:text-white mt-2">
+            <span className="text-sm  mt-2">
               C# and .NET Base
             </span>
-            <span className="text-sm font-medium text-blue-700 dark:text-white">
+            <span className="text-sm font-medium mt-2 ">
               100%
             </span>
           </div>
@@ -152,10 +152,10 @@ export const Resume = () => {
         </section>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
-            <span className="text-sm text-blue-700 dark:text-white mt-2">
+            <span className="text-sm  mt-2">
               Databases (SQL)
             </span>
-            <span className="text-sm font-medium text-blue-700 dark:text-white">
+            <span className="text-sm font-medium mt-2 ">
               100%
             </span>
           </div>
@@ -165,10 +165,36 @@ export const Resume = () => {
         </section>
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
-            <span className="text-sm text-blue-700 dark:text-white mt-2">
+            <span className="text-sm  mt-2">
               Backend programming C#
             </span>
-            <span className="text-sm font-medium text-blue-700 dark:text-white">
+            <span className="text-sm font-medium mt-2 ">
+              10%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+          </div>
+        </section>
+        <section className="mb-2">
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm  mt-2">
+              Entity Framework
+            </span>
+            <span className="text-sm font-medium mt-2">
+              80%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[80%]"></div>
+          </div>
+        </section>
+        <section>
+          <div className="flex justify-between mb-2 ">
+            <span className="text-sm  mt-2">
+              Frontend programming (JS, React)
+            </span>
+            <span className="text-sm font-medium text-blue-700 mt-2 dark:text-white">
               10%
             </span>
           </div>
@@ -178,17 +204,19 @@ export const Resume = () => {
         </section>
         <section>
           <div className="flex justify-between mb-1 ">
-            <span className="text-sm text-blue-700 dark:text-white mt-2">
-              Frontend programming (JS, React)
+            <span className="text-sm  mt-4">
+              Tailwind CSS
             </span>
-            <span className="text-sm font-medium text-blue-700 dark:text-white">
-              10%
+            <span className="text-sm font-medium text-blue-700 mt-4 dark:text-white">
+              60%
             </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+            <div className="bg-green-400 h-2.5  rounded-full w-[60%]"></div>
           </div>
         </section>
+        
+        
       </section>
     </div>
   );
