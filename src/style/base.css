@@ -5,7 +5,7 @@
     @apply text-green-500
 }
 .card{
-    @apply bg-zinc-600  rounded-lg  flex flex-col gap-3 border;
+    @apply bg-zinc-600  rounded-lg  flex flex-col gap-3 border ;
 } 
 .cardText{
     @apply p-2

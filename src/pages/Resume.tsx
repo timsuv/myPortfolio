@@ -60,13 +60,13 @@ export const Resume = () => {
             </span>
             <span>
               <h4 className="mb-1 text-md  text-gray-900 dark:text-white">
-                Stockholm University
+                Malmö University
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2020 - June 2023
+                Sept 2023 - February 2024
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Bachelor in Translation Science
+                Programming in C#
               </p>
             </span>
           </li>
@@ -78,13 +78,13 @@ export const Resume = () => {
             </span>
             <span>
               <h4 className="mb-1 text-md  text-gray-900 dark:text-white">
-                French School{" "}
+              Stockholm University
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Sept 2017 - June 2020
+              Sept 2020 - June 2023
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Baccalauréat S
+              Bachelor in Translation Science
               </p>
             </span>
           </li>
@@ -104,7 +104,7 @@ export const Resume = () => {
             </span>
             <span>
               <h4 className="mb-1 text-md  text-gray-900 dark:text-white">
-                Ritorno{" "}
+                Ritorno
               </h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Nov 2018 - Present

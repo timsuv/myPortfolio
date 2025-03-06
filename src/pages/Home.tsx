@@ -51,7 +51,8 @@ export const Home = () => {
             <h3 className="text-white text-lg">Back-End C#/.NET</h3>
             <p className="text-gray-300 text-sm">
               I have studied C# and .NET, building a strong foundation in
-              back-end development.
+              back-end development, and gained hands-on experience with database
+              management, API integration, and object-oriented programming.
             </p>
           </div>
         </div>
@@ -118,7 +119,8 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">API</h3>
             <p className="text-gray-300 text-sm">
-              I have built various types of APIs, focusing on back-end
+              I have learned to build APIs, creating minimal
+              RESTful services using .NET Core, focusing on back-end
               integration, data handling, and seamless communication between
               applications.
             </p>

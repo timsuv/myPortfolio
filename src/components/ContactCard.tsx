@@ -17,7 +17,7 @@ export const ContactCard = () => {
           Fullstack developer
         </span>
         <span className="text-center text-sm font-bold mb-4 hover:scale-110 transition-transform duration-300 hover:text-green-500 ease-in-out">
-          Looking for internship <br />for Winter and Spring 2025 
+          Looking for internship <br />from 01/12/2025 to 17/04/2026
         </span>
       </section>
       <section className="">
