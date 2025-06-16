@@ -20,13 +20,13 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto ">
+    <div className="relative w-full max-w-3xl mx-auto  ">
       {/* Image Display */}
-      <div className="relative p-5 overflow-hidden rounded-lg">
+      <div className="relative p-5 overflow-hidden rounded-lg h-56">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className="mx-auto h-3/5 w-4/5 object-cover"
+          className="mx-auto h-full w-4/5 object-cover"
         />
       </div>
 

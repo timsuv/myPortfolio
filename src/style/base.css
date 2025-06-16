@@ -5,7 +5,7 @@
     @apply text-green-500
 }
 .card{
-    @apply bg-zinc-600  rounded-lg  flex flex-col gap-3 border ;
+    @apply bg-zinc-600  rounded-lg  flex flex-col gap-3 border;
 } 
 .cardText{
     @apply p-2
@@ -35,5 +35,8 @@
 }
 .projects-cards{
     @apply grid grid-cols-1 md:grid-cols-2
+}
+.home-cards{
+    @apply border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6  
 }
 

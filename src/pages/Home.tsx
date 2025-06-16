@@ -21,7 +21,7 @@ export const Home = () => {
         </div>
       </section>
       <section className="container grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-4">
-        <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
+        <div className="home-cards">
           <div className="flex items-center justify-start gap-3 text-green-500  ">
             <svg
               viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
+        <div className="home-cards ">
           <div className="flex items-center justify-start gap-3 mt-3 text-green-500 ">
             <svg
               viewBox="0 0 24 24"
@@ -87,15 +87,16 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">Front-End JavaScript, React</h3>
             <p className="text-gray-300 text-sm">
-              I have studied JavaScript and React, gaining a foundation in
-              front-end development, building dynamic, user-friendly interfaces.
+              I have studied HTML, CSS, TailwindCSS, JavaScript, and React,
+              gaining a solid foundation in front-end development, building
+              dynamic, user-friendly, and visually appealing interfaces.
             </p>
           </div>
         </div>
       </section>
       {/* hfjfj */}
       <section className="container grid grid-cols-1 md:grid-cols-2  gap-4 items-center mt-4">
-        <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
+        <div className="home-cards">
           <div className="flex items-center justify-start gap-3 text-green-500  ">
             <svg
               viewBox="0 0 24 24"
@@ -119,15 +120,14 @@ export const Home = () => {
           <div className="flex flex-col">
             <h3 className="text-white text-lg">API</h3>
             <p className="text-gray-300 text-sm">
-              I have learned to build APIs, creating minimal
-              RESTful services using .NET Core, focusing on back-end
-              integration, data handling, and seamless communication between
-              applications.
+              I have learned to build APIs, creating minimal RESTful services
+              using .NET Core, focusing on back-end integration, data handling,
+              and seamless communication between applications.
             </p>
           </div>
         </div>
 
-        <div className="border p-3 flex rounded-md border-gray-400 bg-zinc-700 gap-6">
+        <div className="home-cards">
           <div className="flex items-center justify-start gap-3 mt-2 text-green-500 ">
             <svg
               fill="currentColor"

@@ -166,14 +166,27 @@ export const Resume = () => {
         <section className="mb-2">
           <div className="flex justify-between mb-1 ">
             <span className="text-sm  mt-2">
-              Backend programming C#
+              Backend C#
             </span>
             <span className="text-sm font-medium mt-2 ">
-              10%
+              80%
             </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+            <div className="bg-green-400 h-2.5 rounded-full w-[80%]"></div>
+          </div>
+        </section>
+        <section className="mb-2">
+          <div className="flex justify-between mb-1 ">
+            <span className="text-sm  mt-2">
+              Minimal REST API
+            </span>
+            <span className="text-sm font-medium mt-2">
+              90%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div className="bg-green-400 h-2.5 rounded-full w-[90%]"></div>
           </div>
         </section>
         <section className="mb-2">
@@ -182,11 +195,11 @@ export const Resume = () => {
               Entity Framework
             </span>
             <span className="text-sm font-medium mt-2">
-              80%
+              100%
             </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-green-400 h-2.5 rounded-full w-[80%]"></div>
+            <div className="bg-green-400 h-2.5 rounded-full w-[100%]"></div>
           </div>
         </section>
         <section>
@@ -195,11 +208,11 @@ export const Resume = () => {
               Frontend programming (JS, React)
             </span>
             <span className="text-sm font-medium text-blue-700 mt-2 dark:text-white">
-              10%
+              90%
             </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-green-400 h-2.5 rounded-full w-[10%]"></div>
+            <div className="bg-green-400 h-2.5 rounded-full w-[90%]"></div>
           </div>
         </section>
         <section>
@@ -208,11 +221,11 @@ export const Resume = () => {
               Tailwind CSS
             </span>
             <span className="text-sm font-medium text-blue-700 mt-4 dark:text-white">
-              60%
+              90%
             </span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-green-400 h-2.5  rounded-full w-[60%]"></div>
+            <div className="bg-green-400 h-2.5  rounded-full w-[90%]"></div>
           </div>
         </section>
         
